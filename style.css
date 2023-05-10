@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+/* font-family: 'Caveat', cursive; */
+
+*{
+  box-sizing: border-box;
+}
+
+html{
+  background: rgb(12,45,72);
+  background: linear-gradient(342deg, rgba(12,45,72,1) 11%, rgba(20,93,160,1) 50%, rgba(46,139,192,1) 90%);
+  height: 100%;
+}
+
+#app{
+  padding: 10vh;
+  height: 100vh;
+}
+
+.container{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.input{
+  flex-direction: column;
+  background-color: #a3e8ff;
+  box-shadow:  -8px 5px 5px #339dc0; 
+  padding: 5vw 5vw 5vw 2vw;
+  border-radius: 5px;
+  border-bottom-right-radius: 10% 50%;
+  border-top-right-radius: 10% 50%;
+  height: 70vh;
+  width: 70vw;
+}
+
+.icon-img{
+  max-width: 30vw;
+  height: auto;
+}
+
+.body{
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.data{
+  padding: 5px;
+  justify-content: unset;
+
+}
+
+span{
+  margin: 3px;
+  font-family: 'Caveat', cursive;
+  font-size: 1.5em;
+}
+
+.welcome{
+  flex-direction: column;
+  height: 30vh;
+  align-items: center;
+  padding: 30px;
+}
+
+input{
+  border-radius: 4px;
+  margin: 3px;
+  background-color: rgb(219, 219, 219);
+  justify-content: space-evenly;
+}
+
+button{
+  margin: 10px;
+  width: 5em;
+  color: #b2e5f7;
+  font-size: 1.5em;
+  font-family: 'Caveat', cursive;
+  padding: 5px;
+  border: 2px solid #a3e8ff;
+  border-radius: 5px;
+  background: rgb(12,45,72);
+  background: linear-gradient(342deg, rgba(12,45,72,1) 11%, rgba(20,93,160,1) 50%, rgba(46,139,192,1) 90%);
+}
