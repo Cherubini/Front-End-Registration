@@ -9,7 +9,7 @@
 html{
   background: rgb(12,45,72);
   background: linear-gradient(342deg, rgba(12,45,72,1) 11%, rgba(20,93,160,1) 50%, rgba(46,139,192,1) 90%);
-  height: 100%;
+  height: 100vh;
 }
 
 #app{
@@ -22,10 +22,13 @@ html{
   justify-content: space-evenly;
 }
 
+.welcome-span{
+color: #d1d1d1;
+}
+
 .input{
   flex-direction: column;
   background-color: #a3e8ff;
-  box-shadow:  -8px 5px 5px #339dc0; 
   padding: 5vw 5vw 5vw 2vw;
   border-radius: 5px;
   border-bottom-right-radius: 10% 50%;
